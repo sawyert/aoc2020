@@ -14,7 +14,7 @@ public class Day3 {
     public long execute(int right, int down) {
         StringBuilder encountered = new StringBuilder();
         int horizontal = right;
-        for (int i=1; i<this.inputArray.length; i += down) {
+        for (int i=down; i<this.inputArray.length; i += down) {
             String line = this.inputArray[i];
 
             encountered.append(line.charAt(horizontal));
