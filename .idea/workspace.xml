@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49d9b55b-0c8e-4e35-a712-bd3cd1cb5b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,22 +40,7 @@
       <recent name="com.tim.aoc2020.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day2_2Tests">
-    <configuration name="Day1Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aoc2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tim.aoc2020.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tim.aoc2020.day1" />
-      <option name="MAIN_CLASS_NAME" value="com.tim.aoc2020.day1.Day1Tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day3Tests">
     <configuration name="Day1_1Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aoc2020" />
       <extension name="coverage">
@@ -118,13 +102,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day3Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aoc2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tim.aoc2020.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tim.aoc2020.day3" />
+      <option name="MAIN_CLASS_NAME" value="com.tim.aoc2020.day3.Day3Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day3Tests" />
         <item itemvalue="JUnit.Day2_2Tests" />
         <item itemvalue="JUnit.Day2_2Tests.testValidInputFailsInPostion4" />
         <item itemvalue="JUnit.Day2Tests" />
         <item itemvalue="JUnit.Day1_1Tests" />
-        <item itemvalue="JUnit.Day1Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -142,22 +141,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2500" height="398" key="GridCell.Tab.0.bottom" timestamp="1606899310309">
+    <state width="2500" height="398" key="GridCell.Tab.0.bottom" timestamp="1606986084802">
       <screen x="-354" y="-1440" width="2560" height="1400" />
     </state>
-    <state width="2500" height="398" key="GridCell.Tab.0.bottom/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606899310309" />
-    <state width="2500" height="398" key="GridCell.Tab.0.center" timestamp="1606899310309">
+    <state width="2500" height="398" key="GridCell.Tab.0.bottom/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606986084802" />
+    <state width="2500" height="398" key="GridCell.Tab.0.center" timestamp="1606986084802">
       <screen x="-354" y="-1440" width="2560" height="1400" />
     </state>
-    <state width="2500" height="398" key="GridCell.Tab.0.center/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606899310309" />
-    <state width="2500" height="398" key="GridCell.Tab.0.left" timestamp="1606899310309">
+    <state width="2500" height="398" key="GridCell.Tab.0.center/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606986084802" />
+    <state width="2500" height="398" key="GridCell.Tab.0.left" timestamp="1606986084802">
       <screen x="-354" y="-1440" width="2560" height="1400" />
     </state>
-    <state width="2500" height="398" key="GridCell.Tab.0.left/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606899310309" />
-    <state width="2500" height="398" key="GridCell.Tab.0.right" timestamp="1606899310309">
+    <state width="2500" height="398" key="GridCell.Tab.0.left/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606986084802" />
+    <state width="2500" height="398" key="GridCell.Tab.0.right" timestamp="1606986084802">
       <screen x="-354" y="-1440" width="2560" height="1400" />
     </state>
-    <state width="2500" height="398" key="GridCell.Tab.0.right/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606899310309" />
+    <state width="2500" height="398" key="GridCell.Tab.0.right/0.0.1280.680/-2914.-1438.2560.1400/-354.-1440.2560.1400@-354.-1440.2560.1400" timestamp="1606986084802" />
     <state width="2500" height="488" key="GridCell.Tab.1.bottom" timestamp="1606899030029">
       <screen x="-354" y="-1440" width="2560" height="1400" />
     </state>
