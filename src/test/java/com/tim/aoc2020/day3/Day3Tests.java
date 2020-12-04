@@ -1,7 +1,5 @@
 package com.tim.aoc2020.day3;
 
-import com.tim.aco2020.day2.Day2;
-import com.tim.aco2020.day3.Day3;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

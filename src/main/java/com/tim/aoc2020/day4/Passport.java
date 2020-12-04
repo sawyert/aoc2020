@@ -1,4 +1,4 @@
-package com.tim.aco2020.day4;
+package com.tim.aoc2020.day4;
 
 import java.util.HashMap;
 import java.util.Map;

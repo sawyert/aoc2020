@@ -1,8 +1,6 @@
-package com.tim.aco2020.day4;
+package com.tim.aoc2020.day4;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class Day4 {

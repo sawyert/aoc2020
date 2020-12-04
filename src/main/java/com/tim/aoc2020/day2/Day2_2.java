@@ -1,4 +1,4 @@
-package com.tim.aco2020.day2;
+package com.tim.aoc2020.day2;
 
 public class Day2_2 {
     String[] input;

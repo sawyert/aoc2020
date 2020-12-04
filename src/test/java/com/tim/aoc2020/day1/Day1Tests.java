@@ -1,9 +1,7 @@
 package com.tim.aoc2020.day1;
 
-import com.tim.aco2020.day1.Day1;
 import org.junit.jupiter.api.Test;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;

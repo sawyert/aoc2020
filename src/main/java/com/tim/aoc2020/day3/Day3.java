@@ -1,4 +1,4 @@
-package com.tim.aco2020.day3;
+package com.tim.aoc2020.day3;
 
 public class Day3 {
 
