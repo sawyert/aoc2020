@@ -1,6 +1,5 @@
 package com.tim.aoc2020.day9;
 
-import com.tim.aoc2020.Day9;
 import com.tim.aoc2020.FileReader;
 import org.junit.jupiter.api.Test;
 

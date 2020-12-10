@@ -1,4 +1,4 @@
-package com.tim.aoc2020;
+package com.tim.aoc2020.day9;
 
 import java.util.ArrayList;
 import java.util.List;
