@@ -17,7 +17,7 @@ public class Day11 {
 
         while (changes > 0) {
             newRoom.printRoom();
-            System.out.println(changes);
+            // System.out.println(changes);
 
             Room anotherRoom = new Room();
             changes = anotherRoom.execute(newRoom);
@@ -33,7 +33,7 @@ public class Day11 {
 
         while (changes > 0) {
             newRoom.printRoom();
-            System.out.println(changes);
+            // System.out.println(changes);
 
             Room anotherRoom = new Room();
             changes = anotherRoom.execute2(newRoom);

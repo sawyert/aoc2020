@@ -74,16 +74,18 @@ public class Room {
     }
 
     public void printRoom() {
-        for (int row=0; row<100;row++) {
-            StringBuilder line = new StringBuilder();
-            for (int column = 0; column < 100; column++) {
-                Location location = locations[row][column];
-                if (location != null) {
-                    line.append(location);
+        if (false) {
+            for (int row = 0; row < 100; row++) {
+                StringBuilder line = new StringBuilder();
+                for (int column = 0; column < 100; column++) {
+                    Location location = locations[row][column];
+                    if (location != null) {
+                        line.append(location);
+                    }
                 }
-            }
-            if (line.toString().trim().length() > 0) {
-                System.out.println(line);
+                if (line.toString().trim().length() > 0) {
+                    System.out.println(line);
+                }
             }
         }
     }

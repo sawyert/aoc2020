@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -42,8 +43,11 @@ public class Day11Tests {
         String[] input = FileReader.read("Day11.txt");
 
         Day11 day = new Day11(input);
+        long start = new Date().getTime();
         int seatsOccupied = day.execute2();
+        long end = new Date().getTime();
         System.out.println(seatsOccupied);
+        System.out.println(end - start + "ms");
     }
 
 }
