@@ -53,4 +53,10 @@ public class Day15Tests {
         Day15 day = new Day15 ("14,3,1,0,9,5", 2020);
        System.out.println(day.execute());
     }
+
+    @Test
+    void testPuzzleInputPart2() {
+        Day15 day = new Day15 ("14,3,1,0,9,5", 30000000);
+        System.out.println(day.execute());
+    }
 }

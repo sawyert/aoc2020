@@ -1,12 +1,13 @@
 package com.tim.aoc2020.day15;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Day15 {
 
     private String[] inputSplit;
-    private List<Integer> results = new ArrayList<>();
     private long max;
 
     public Day15(String input, long max) {
@@ -15,37 +16,31 @@ public class Day15 {
     }
 
     public long execute() {
+        LastSeen lastSeen = new LastSeen();
+        Integer lastNumber = null;
         for (int i=0; i<max; i++) {
             if (i < inputSplit.length) {
-                results.add(Integer.parseInt(inputSplit[i]));
+                lastSeen.seen(Integer.parseInt(inputSplit[i]), i);
+                lastNumber = Integer.parseInt(inputSplit[i]);
                 continue;
             }
 
-            int lastNumber = results.get(i-1);
-            long countOfLastNumber = results.stream().filter(x -> x == lastNumber).count();
-            if (countOfLastNumber == 1) {
-                results.add(0);
+
+            Integer lastTimeSeen = lastSeen.lastSeenBefore(lastNumber, i);
+            if (lastTimeSeen == null || lastTimeSeen == i) {
+                lastSeen.seen(0, i);
+                lastNumber = 0;
                 continue;
             }
 
-            int foundPosition = 0;
-            for (int j=results.size() - 2 ; j>=0 ; j--) {
-                if (results.get(j) == lastNumber) {
-                    foundPosition = j;
-                    break;
-                }
-            }
 
-            int newValue = i - 1 - foundPosition;
-            results.add(newValue);
-
-            int resultsSize = results.size();
-            if (resultsSize % 10000 == 0) {
-                System.out.println(results.size());
-            }
+            int foundPosition = lastSeen.lastSeenBefore(lastNumber, i);
+            int newValue = i - foundPosition;
+            lastSeen.seen(newValue, i);
+            lastNumber = newValue;
         }
 
-        return this.results.get(this.results.size()-1);
+        return lastNumber;
     }
 
 }
