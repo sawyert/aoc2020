@@ -25,4 +25,13 @@ public class Day17Tests {
         Day17 day = new Day17(input);
         System.out.println(day.execute(6));
     }
+
+    @Test
+    void testExampleInputPart2() throws IOException, URISyntaxException {
+        String[] input = FileReader.read("Day17Example.txt");
+
+        Day17Part2 day = new Day17Part2(input);
+        assertEquals(848, day.execute(6));
+    }
+
 }
