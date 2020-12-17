@@ -1,0 +1,28 @@
+package com.tim.aoc2020.day17;
+
+import com.tim.aoc2020.FileReader;
+import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
+import java.net.URISyntaxException;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class Day17Tests {
+
+    @Test
+    void testExampleInput() throws IOException, URISyntaxException {
+        String[] input = FileReader.read("Day17Example.txt");
+
+        Day17 day = new Day17(input);
+        assertEquals(112, day.execute(6));
+    }
+
+    @Test
+    void testPuzzleInput() throws IOException, URISyntaxException {
+        String[] input = FileReader.read("Day17.txt");
+
+        Day17 day = new Day17(input);
+        System.out.println(day.execute(6));
+    }
+}
