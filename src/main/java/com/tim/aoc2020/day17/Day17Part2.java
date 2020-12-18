@@ -1,5 +1,7 @@
 package com.tim.aoc2020.day17;
 
+import java.util.Date;
+
 public class Day17Part2 {
 
     private Network4d startingNetwork = new Network4d();
@@ -20,7 +22,7 @@ public class Day17Part2 {
     public long execute(int rounds) {
         Network4d newNetwork = startingNetwork;
         for (int i=0; i<rounds;i++){
-            System.out.println(("Round " + i));
+            System.out.println((new Date().toString() + " Round " + i));
             newNetwork = newNetwork.executeRound();
         }
 
