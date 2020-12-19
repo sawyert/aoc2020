@@ -1,8 +1,5 @@
 package com.tim.aoc2020.day17;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
